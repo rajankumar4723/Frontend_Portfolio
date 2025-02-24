@@ -1,0 +1,29 @@
+/* Projects.css */
+
+.projects-container {
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 40px;
+
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    grid-gap: 20px;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; 
+  }
+  
+  /* Add more CSS styles to customize the appearance of your projects */
