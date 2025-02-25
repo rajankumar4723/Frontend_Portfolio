@@ -6,7 +6,7 @@ import Portfolio from "../assets/Portfolio.png";
 import Cards from "../assets/Cards.png";
 import Footer from "./Footer";
 import Port from "../assets/Port.png";
-import Todo from "../assets/Todo.png";
+import Todo from "../assets/ToDo.png";
 const Projects = () => {
   return (
     <>
