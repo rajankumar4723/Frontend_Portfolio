@@ -21,16 +21,16 @@ const Home = () => {
           <button>Resume</button>
           <ul className="header-link">
             <li>
-              <a href="/">Facebook</a>
+              <a href="/"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-              <a href="/">Linkdin</a>
+              <a href="/"><i class="fa-brands fa-linkedin"></i></a>
             </li>
             <li>
-              <a href="/">X</a>
+              <a href="/"><i class="fa-solid fa-x"></i></a>
             </li>
             <li>
-              <a href="/">Instagram</a>
+              <a href="/"><i class="fa-brands fa-instagram"></i></a>
             </li>
           </ul>
         </div>

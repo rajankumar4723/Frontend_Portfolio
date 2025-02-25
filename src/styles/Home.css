@@ -33,6 +33,9 @@
   flex: 1;
   min-width: 300px;
 }
+.header h1{
+  font-size: 35px;
+}
 
 .header button {
   padding: 10px 20px;
@@ -56,13 +59,13 @@
   flex-wrap: wrap;
   margin-top: 20px;
   list-style: none;
-  justify-content: center;
-  gap: 15px;
+  /* justify-content: center; */
+  gap: 25px;
 }
 
 .header-link a {
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 10px 10px;
   color: #007bff;
   transition: color 0.3s ease;
 }
@@ -103,7 +106,7 @@
 .header-right img {
   border-radius: 10px;
   width: 100%;
-  max-width: 400px;
+  max-width: 370px;
 }
 
 /* Responsive Design */
@@ -116,10 +119,22 @@
 
   .header {
     padding: 20px;
-  }
+    font-size: 15px;    line-height: 1.5rem;
 
-  .header-right img {
-    max-width: 300px;
+  }
+  .header h1{
+    font-size: 20px;
+  }
+  .header h3{
+    font-size: 20px;
+  }
+  .header button {
+    font-size: 10px;
+
+  }
+  .header-right  {
+    min-width: 585px;
+    /* background-color: black; */
   }
 
   .social-links {
@@ -130,8 +145,14 @@
 @media (max-width: 480px) {
   .header {
     padding: 15px;
+    /* background-color: blue; */
+    min-width: 250px;
   }
-
+.header-right{
+  /* background-color:red; */
+  
+  min-width: 275px;
+}
   .header button {
     width: 100%;
     margin: 10px 0;
