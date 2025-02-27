@@ -16,9 +16,7 @@ const Home = () => {
             have a solid understanding of HTML, CSS, and JavaScript, and I am
             proficient in using React to build dynamic web applications.
           </p>
-          <button>About me</button>
-          <button>Github</button>
-          <button>Resume</button>
+        
           <ul className="header-link">
             <li>
               <a href="/"><i class="fa-brands fa-facebook"></i></a>
