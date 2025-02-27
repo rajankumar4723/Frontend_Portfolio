@@ -6,27 +6,31 @@ import Pic from "../assets/linkdin_pic.jpg";
 const About = () => {
   return (
     <>
-      <div className="about-container">
-        <div className="profile-image-container">
-          <img
-            src={Pic}
-            alt="Kelly - UI/UX Designer & Web Developer"
-            className="profile-image"
-          />
-        </div>
-        <h1>About Me</h1>
-        <div className="about-text">
-          <p>
-            I'm Kelly, a passionate UI/UX Designer & Web Developer with a focus
-            on creating user-centered and visually appealing digital
-            experiences.
-          </p>
-          <p>
-            "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit." - Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.
-          </p>
+      <div className="main-about">
+        <div className="about-container">
+          <div className="about-section">
+            <div className="profile-image-container">
+              <img
+                src={Pic}
+                alt="Kelly - UI/UX Designer & Web Developer"
+                className="profile-image"
+              />
+            </div>
+            <div className="about-text">
+              {/* <h1>About Me</h1> */}
+              <p>
+                I'm Kelly, a passionate UI/UX Designer & Web Developer with a
+                focus on creating user-centered and visually appealing digital
+                experiences.
+              </p>
+              <p>
+                "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                consectetur velit." - Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+              </p>
+            </div>
+          </div>
           <div className="skills-section">
             <h2>Skills</h2>
             <div className="skills">
@@ -40,23 +44,23 @@ const About = () => {
               </div>
               <div className="skill">
                 <span className="skill-name">JavaScript</span>
-                <div className="skill-progress" style={{ width: "75%" }}></div>
+                <div className="skill-progress" style={{ width: "100%" }}></div>
               </div>
               <div className="skill">
                 <span className="skill-name">React</span>
-                <div className="skill-progress" style={{ width: "80%" }}></div>
+                <div className="skill-progress" style={{ width: "100%" }}></div>
               </div>
               <div className="skill">
                 <span className="skill-name">Java</span>
-                <div className="skill-progress" style={{ width: "90%" }}></div>
+                <div className="skill-progress" style={{ width: "100%" }}></div>
               </div>
               <div className="skill">
                 <span className="skill-name">DSA</span>
-                <div className="skill-progress" style={{ width: "95%" }}></div>
+                <div className="skill-progress" style={{ width: "100%" }}></div>
               </div>
               <div className="skill">
                 <span className="skill-name">MongoDB</span>
-                <div className="skill-progress" style={{ width: "95%" }}></div>
+                <div className="skill-progress" style={{ width: "100%" }}></div>
               </div>{" "}
               <div className="skill">
                 <span className="skill-name">Node JS</span>
@@ -64,7 +68,7 @@ const About = () => {
               </div>{" "}
               <div className="skill">
                 <span className="skill-name">Tailwind CSS</span>
-                <div className="skill-progress" style={{ width: "95%" }}></div>
+                <div className="skill-progress" style={{ width: "100%" }}></div>
               </div>
             </div>
           </div>
@@ -108,7 +112,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Footer />
+        <Footer />
     </>
   );
 };
